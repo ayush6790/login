@@ -104,9 +104,12 @@ const LoginPage = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     // Check if the entered username and password are correct
-    if (values.username === 'Ayush' && values.password === 'Password@123' ) {
+    if (values.username === 'Ayush' && values.password === 'Password@1810' ) {
       setIsLoggedIn(true); // Set login status to true
-    } else if (values.username ==='Ritika' && values.password ==='Password@123' ){
+    } else if (values.username ==='Ritika' && values.password ==='Password@2411' ){
+      setIsLoggedIn(true); // Set login status to true
+    }
+     else if (values.username ==='Princy' && values.password ==='Password@2709' ){
       setIsLoggedIn(true); // Set login status to true
     }
     else {
