@@ -12,7 +12,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />}/>
-        <Route path="/cntdn" element={<Home />}/>
+        {/* <Route path="/cntdn" element={<Home />}/> */}
         <Route path="/login" element={< LoginPage />}/>            
         <Route path="/welcome" element={< WelcomeUser />}/>            
                     
